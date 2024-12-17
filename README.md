@@ -32,7 +32,7 @@ Change `2.1.5` to your prefered version
 ## Download keepalived.spec file
 
 ```bash
-wget https://raw.github.com/yasharne/keepalived_rpm/master/keepalived.spec -O ~/rpmbuild/SPECS/keepalived.spec
+wget https://raw.githubusercontent.com/Uousb/keepalived_rpm/master/keepalived.spec -O ~/rpmbuild/SPECS/keepalived.spec
 ```
 edit `keepalived.spec` file and change the `Version` parameter to the keepalived version you want to package:
 ```
